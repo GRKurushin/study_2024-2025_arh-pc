@@ -1,5 +1,5 @@
 SECTION .data
-	hello:      db "Kurushin Georgy",0xa 
+	hello:      db "Hello, world!",0xa 
 		helloLen:   equ $ - hello
 SECTION .text
 	global _start           
